@@ -1,5 +1,3 @@
-import getBuffer from './getBuffer';
-
 export default class ArrayBufferConverter {
   load(buffer) {
     this.bufferView = new Uint16Array(buffer);
